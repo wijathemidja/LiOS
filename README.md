@@ -3,7 +3,7 @@ A possible way to execute Linux applications on iOS devices.
 
 ## How?
 
-### Architechture 
+### Architecture
 Linux has **native** ARM builds. Most notable for gaming is the upcoming SteamOS for ARM, which will be used on the Steam Frame, Ubuntu & Debian also already have native ARM64 builds.
 
 This is important to iOS as modern iOS devices use ARM64 (well ARM64e). This means no emulation of the CPU is needed - which creates a performance overhead such as emulating a Switch.
