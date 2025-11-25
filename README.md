@@ -25,3 +25,4 @@ Hypervisor setup (similar to UTM-HV) that runs Ubuntu prefernable with LXQt (as 
 Automatically install Steam + FEX to this Ubuntu system.
 
 When a Vulkan game runs, use MoltenVK to render it , using hardware acceleration of an A/M series chip, similar to how MeloNX runs. An alternative to this would be to render it in the VM using unofficial Vulkan SDK for ARM Linux (though an offical SDK exists for Windows on ARM)
+
