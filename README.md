@@ -3,7 +3,7 @@ A possible way to execute Linux applications on iOS devices.
 
 ## How?
 
-### Architechture 
+### Architecture
 Linux has **native** ARM builds. Most notable for gaming is the upcoming SteamOS for ARM, which will be used on the Steam Frame, Ubuntu & Debian also already have native ARM64 builds.
 
 This is important to iOS as modern iOS devices use ARM64 (well ARM64e). This means no emulation of the CPU is needed - which creates a performance overhead such as emulating a Switch.
@@ -18,6 +18,7 @@ For x86 software, FEX may be used. It is compatiable with Arch (which has a proj
 
 As Linux native games don't use DirectX (which is why WINE is sometimes used) they either use OpenGL or Vulkan. Vulkan already has **NATIVE** iOS support through Metal (MoltenVK) - we already know this works well, as MeloNX uses it for Switch emulation. OpenGL ES 2.0 and most of 3.0 has support for Metal through MetalANGLE... but this is used in older games, and Vulkan would be preferable. 
 
+For DirectX games DXVK with Wine could be used or Steam Proton.
 
 ## Basic Plan
 
