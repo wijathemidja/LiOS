@@ -10,7 +10,7 @@ This is important to iOS as modern iOS devices use ARM64 (well ARM64e). This mea
 
 ### Hypervisor vs Emulation
 
-Some (very little) games exist native for ARM but distros already have full basic support (see above). This means they can run through a hypervisor for iOS instead of an emulator, giving us much more perormance. This will require JIT which can already be achieved on all modern iOS versions (See StikDebug / StikJIT). 
+Some (very little) games exist native for ARM but distros already have full basic support (see above). This means they can run through a hypervisor for iOS instead of an emulator, giving us much more performance. This will require JIT AND a hypervisor (see project.md) which can already be achieved on  iOS 16.3 and below  (See StikDebug / StikJIT + and UTM HV). We already have JIT on iOS 26, but require a hypervisor.  
 
 For x86 software, FEX may be used. It is compatiable with Arch (which has a project called Arch ARM), the upcoming SteamOS-ARM, and currently Ubuntu since v22.04 . FEX is an emulator however, and so will have reduced performance. 
 

@@ -1,0 +1,2 @@
+The backend 'HQ' code should call the QEMU setup and work with iLix and iGSx. It should fetch the distro ISO and mount it, and should manage memory and CPU usage + temps.
+It should use basic controller support (and K&M).
